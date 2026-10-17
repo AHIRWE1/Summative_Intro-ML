@@ -1,9 +1,8 @@
 # Predicting Hospital Readmissions for Diabetic Patients
 
-This repository contains a comprehensive machine learning pipeline developed as a summative project to predict 30-day hospital readmissions using historical clinical encounter data (1999–2008).
 
 ## Project Overview
-Hospital readmissions within 30 days of discharge represent a critical challenge for healthcare quality and cost management. This project implements an end-to-end machine learning lifecycle—from rigorous patient-grouped data splitting and feature preprocessing to systematic experimentation comparing traditional machine learning models and deep neural networks.
+Hospital readmissions within 30 days of discharge represent a critical challenge for healthcare quality and cost management. This project implements an end-to-end machine learning lifecycle from rigorous patient-grouped data splitting and feature preprocessing to systematic experimentation comparing traditional machine learning models and deep neural networks.
 
 ## Key Features & Methodology
 * **Patient-Grouped Splitting:** Implemented strict patient-level grouping (`GroupShuffleSplit`) to prevent data leakage across train, validation, and test splits.
@@ -14,7 +13,7 @@ Hospital readmissions within 30 days of discharge represent a critical challenge
 
 ## Repository Structure
 ```
-├── hospital_readmission_ml_pipeline.ipynb   # Main Jupyter/Colab notebook containing all code & narrative
+├── diabetes_130us_readmission_analysis.ipynb   # Main Jupyter/Colab notebook containing all code & narrative
 ├── requirements.txt                         # Python package dependencies
 └── README.md                                # Project documentation
 ```
@@ -26,8 +25,8 @@ Hospital readmissions within 30 days of discharge represent a critical challenge
 ## Reproducibility
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
+   git clone https://github.com/AHIRWE1/Summative_Intro-ML.git 
+   cd Summative_Intro-ML
    ```
 2. Install the required dependencies:
    ```bash
