@@ -32,4 +32,4 @@ Hospital readmissions within 30 days of discharge represent a critical challenge
    ```bash
    pip install -r requirements.txt
    ```
-3. Open and run `hospital_readmission_ml_pipeline.ipynb` in Google Colab or a local Jupyter environment.
+3. Open and run `diabetes_130us_readmission_analysis.ipynb` in Google Colab or a local Jupyter environment.
